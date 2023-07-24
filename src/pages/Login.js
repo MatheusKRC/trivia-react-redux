@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+// import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import propTypes from 'prop-types';
 import { connect } from 'react-redux';
 import '../CSS/loginPage.css';
@@ -91,14 +91,14 @@ class Login extends Component {
                 Play
 
               </button>
-              <Link to="/Settings">
+              {/* <Link to="/Settings">
                 <button
                   type="button"
                   data-testid="btn-settings"
                 >
                   Settings
                 </button>
-              </Link>
+              </Link> */}
 
             </form>
           </section>
